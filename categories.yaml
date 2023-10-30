@@ -1,0 +1,637 @@
+Electronics:
+    _description: "Electronic Components"
+    _structural: true
+    Cables and Wires:
+        _description: Wires and Cables
+        _structural: true
+        Cable Assemblies:
+            _description: "Terminated, Assembled Cables"
+            _parameters:
+                - Length
+                - Number of Conductors
+                - Cross-Section
+                - Type
+        Ribbon Cable:
+            _parameters:
+                - Number of Conductors
+                - Pitch
+                - Cross-Section
+                - Rated Voltage
+                - Conductor Material
+                - Insulation Material
+        Solid Core:
+            _parameters:
+                - Number of Conductors
+                - Cross-Section
+                - Rated Voltage
+                - Conductor Material
+                - Insulation Material
+        Stranded:
+    Connectors:
+        _structural: true
+        Audio Connectors:
+            _aliases:
+                - RCA Phono Connectors
+                - Phone Connectors
+            _parameters:
+                - Mounting Type
+                - Connector Type
+                - Gender
+                - Diameter
+                - Has Switch
+                - Rated Current
+                - Rated Voltage
+        Barrel Connectors:
+            _aliases:
+                - Power Connectors
+                - AC/DC Power Connectors
+                - Mounting Type
+                - Connector Type
+                - Gender
+                - Diameter
+                - Has Switch
+                - Rated Current
+                - Rated Voltage
+        Circular Connectors:
+            _aliases: ["Circular Connector Assemblies"]
+            _parameters:
+                - Mounting Type
+                - Connector Type
+                - Number of Contacts
+                - Rated Current
+                - Rated Voltage
+        Connector Housings:
+            _aliases:
+                - Rectangular Connector Housings
+            _parameters:
+                - Connector Type
+                - Number of Contacts
+                - Number of Rows
+        Interface:
+            _aliases:
+                - USB, DVI, HDMI Connectors
+                - USB Connectors
+            _description: "Connectors for Digital Interfaces"
+            _structural: true
+            _parameters: 
+                - Mounting Type
+                - Number of Contacts
+            USB-A:
+            USB-B:
+            USB-C:
+        Jumpers:
+            _aliases: ["Shunts, Jumpers"]
+            _description: "Jumpers, Shunts"
+            _parameters:
+                - Number of Contacts
+                - Pitch
+                - Rated Current
+                - Rated Voltage
+                - Contact Finish
+        Rectangular:
+            _structural: true
+            _parameters:
+                - Mounting Type
+                - Connector Type
+                - Number of Contacts
+                - Number of Rows
+                - Pitch
+                - Rated Current
+                - Rated Voltage
+                - Contact Finish
+            Headers:
+                _aliases:
+                    - Headers, Male Pins
+                _description: "Headers, Male Rectangular Connectors"
+                _parameters:
+                    - Shrouding
+            Sockets:
+                _aliases: ["Headers, Receptacles, Female Sockets"]
+                _description: "Sockets, Female Rectangular Connectors"
+    Crystals, Oscillators:
+        _structural: true
+        _parameters:
+            - Frequency
+            - Frequency Stability
+            - Frequency Tolerance
+            - Mounting Type
+            - Package Type
+            - Size
+        Crystals:
+            _parameters:
+                - Load Capacitance
+                - ESR
+        Oscillators:
+    Diodes:
+        _structural: true
+        _parameters:
+            - Mounting Type
+            - Package Type
+            - Forward Voltage
+        LEDs:
+            _parameters:
+                - Color
+            Addressable:
+                _aliases:
+                    - LED Addressable, Specialty
+            Discrete:
+                _aliases: 
+                    - LED Indication
+                    - Standard LEDs - Through Hole
+                    - Light Emitting Diodes (LED)
+                _parameters:
+                    - Wavelength
+                    - Lens Style
+            Numeric Displays:
+                _aliases:
+                    - LED Character and Numeric
+                    - LED Displays & Accessories
+                    - Led Segment Display
+                _parameters:
+                    - Display Type
+                    - Number of Characters
+                    - Common Pin
+                    - Wavelength
+        Schottky:
+            _description: "Schottky Diodes"
+            _parameters:
+                - Reverse Breakdown Voltage
+                - Rated Current
+        Standard:
+            _aliases:
+                - Single Diodes
+                - Diode Arrays
+            _description: "Standard Rectifier Diodes, Small Signal Diodes"
+            _parameters:
+                - Reverse Breakdown Voltage
+                - Rated Current
+        TVS:
+            _aliases: ["Transient Voltage Suppressors (TVS)"]
+            _description: "Transient-Voltage-Suppression Diodes"
+            _parameters:
+                - Working Voltage
+                - Rated Current
+        Zener:
+            _aliases:
+                - Zener Diodes
+            _description: "Zener Diodes"
+            _parameters:
+                - Reverse Breakdown Voltage
+                - Rated Power
+    Electromechanical:
+        _description: "Electromechanical Components"
+        _structural: true
+        Breadboards:
+            _aliases:
+                - Solderless Breadboards
+                - PCBs & Breadboards
+            _parameters:
+                - Number of Contacts
+                - Size
+        Encoders:
+            _parameters:
+                - Mounting Type
+                - Output Type
+                - Pulses per Revolution
+                - Has Switch
+        Fuse Holders:
+            _aliases:
+                - Fuseholders
+            _parameters:
+                - Mounting Type
+                - Fuse Size
+                - Rated Current
+                - Rated Voltage
+        Motors:
+        Potentiometers:
+            _aliases:
+                - Rotary Potentiometers, Rheostats
+                - Variable Resistors/Potentiometers
+            _parameters:
+                - Mounting Type
+                - Resistance
+                - Tolerance
+                - Has Switch
+                - Number of Turns
+                - Taper
+                - Rotation Angle
+                - Rated Power
+        Potentiometer Knobs:
+            _parameters:
+                - Color
+                - Material
+                - Size
+                - Shaft Type
+                - Shaft Size
+        Relays:
+            _aliases:
+                - Mounting Type
+                - Switch Type
+                - Coil Voltage
+                - Rated Current
+                - Rated Voltage
+        Slide Potentiometers:
+            _parameters:
+                - Mounting Type
+                - Resistance
+                - Tolerance
+                - Travel Range
+                - Rated Power
+        Switches:
+            _parameters:
+                - Mounting Type
+            _structural: true
+            Pushbuttons:
+                _aliases: ["Pushbutton Switches"]
+                _parameters:
+                    - Switch Type
+                    - Color
+                    - Rated Current
+                    - Rated Voltage
+            Rotary Switches:
+                _parameters:
+                    - Switch Type
+                    - Rated Current
+                    - Rated Voltage
+                    - Number of Positions
+            Slide Switches:
+                _parameters:
+                    - Switch Type
+                    - Rated Current
+                    - Rated Voltage
+            Switch Caps:
+                _aliases:
+                    - Caps
+                    - Switch accessories or Caps
+                _parameters:
+                    - Color
+                    - Shape
+                    - Size
+            Tactile Switches:
+                _parameters:
+                    - Switch Type
+                    - Operating Force
+                    - Rated Current
+            Toggle Switches:
+                _parameters:
+                    - Switch Type
+                    - Rated Current
+                    - Rated Voltage
+        Trimmer Potentiometers:
+            _aliases:
+                - Trimmers Pots, Spindle
+            _parameters:
+                - Mounting Type
+                - Resistance
+                - Number of Turns
+                - Tolerance
+                - Rated Power
+    Integrated Circuits:
+        _structural: true
+        _parameters:
+            - Mounting Type
+            - Package Type
+        Amplifiers:
+            _description: "Amplifier ICs"
+            _structural: true
+            _parameters:
+                - Number of Circuits
+                - Slew Rate
+                - Input Offset Voltage
+                - Supply Current
+                - Supply Voltage
+            Operational Amplifiers:
+                _aliases:
+                    - Operational Amplifier
+            Instrumentation Amplifiers:
+        Audio:
+            _description: "Audio ICs"
+        Data Acquisition:
+            _description: "Data Acquisition ICs"
+            _structural: true
+            _parameters:
+                - Number of Bits
+                - Interface
+                - Architecture
+                - Reference Type
+                - Analog Supply Voltage
+                - Digital Supply Voltage
+            ADCs:
+                _aliases: ["Analog to Digital Converters (ADC)"]
+                _description: "Analog to Digital Converters"
+                _parameters:
+                    - Sampling Rate
+                    - Number of A/D Converters
+            DACs:
+                _aliases: ["Digital to Analog Converters (DAC)"]
+                _description: "Digital to Analog Converters"
+                _parameters:
+                    - Settling Time
+                    - Number of D/A Converters
+        Interface:
+            _description: "Interface ICs"
+            _structural: True
+            Analog Switches:
+                _aliases:
+                    - Analog Switches, Multiplexers, Demultiplexers
+                    - Analog Switches / Multiplexers
+                _parameters:
+                    - Switch Type
+                    - Number of Circuits
+                    - On Resistance
+                    - Multiplexer Configuration
+                    - Switch Time
+                    - Supply Voltage
+            Audio Codecs:
+                _parameters:
+                    - Number of Bits
+                    - Analog Supply Voltage
+                    - Digital Supply Voltage
+            IO Expanders:
+                _aliases: ["I/O Expanders"]
+                _parameters:
+                    - Interface
+                    - Number of IO Pins
+                    - Output Current
+                    - Supply Voltage
+            Transceivers:
+                _aliases:
+                    - Drivers, Receivers, Transceivers
+                _parameters:
+                    - Protocol
+                    - Duplex
+                    - Number of Drivers/Receivers
+                    - Data Rate
+        Logic:
+            _description: "Logic ICs"
+            _structural: True
+            _parameters:
+                - Number of Circuits
+                - Supply Voltage
+            Counters:
+                _aliases:
+                    - Counters, Dividers
+                _parameters:
+                    - Number of Bits
+                    - Frequency
+            Flip Flops:
+                _parameters:
+                    - Type
+                    - Number of Bits
+                    - Frequency
+                    - Output Current
+                    - Output Type
+            Logic Gates:
+                _aliases:
+                    - Gates and Inverters
+                _parameters:
+                    - Type
+            PLLs:
+                _aliases:
+                    - Clock Generators, PLLs, Frequency Synthesizers
+                _description: "Phase-Locked Loops"
+                _parameters:
+                    - Frequency
+            Shift Registers:
+                _parameters:
+                    - Number of Bits
+                    - Output Type
+        Memory:
+            _description: "Memory ICs"
+        Microcontrollers:
+            _parameters:
+                - Processor Type
+                - Architecture
+                - Connectivity
+                - Frequency
+                - Number of IO Pins
+                - FLASH Size
+                - EEPROM Size
+                - RAM Size
+                - Supply Voltage
+        Motor Drivers:
+            _aliases:
+                - Motor Drivers, Controllers
+            _parameters:
+                - Motor Type
+                - Output Current
+                - Supply Voltage
+                - Rated Voltage
+        Optoisolators:
+            _parameters:
+                - Number of Circuits
+                - Data Rate
+                - Forward Voltage
+                - Rated Current
+                - Output Current
+                - Supply Voltage
+        Power:
+            _description: "Power ICs"
+            Low Dropout Regulators:
+                _aliases:
+                    - Linear, Low Drop Out (LDO) Regulators
+                    - Linear Voltage Regulators (LDO)
+                _parameters:
+                    - Input Voltage
+                    - Output Voltage
+                    - Output Current
+                    - Output Polarity
+                    - Output Type
+                    - Dropout Voltage
+            DC-DC Converters:
+                _aliases:
+                    - DC DC Converters
+                _parameters:
+                    - Input Voltage
+                    - Output Voltage
+                    - Output Current
+                    - Rated Power
+                    - Efficiency
+            Switching Regulators:
+                _aliases:
+                    - DC DC Switching Regulators
+                _paramters:
+                    - Input Voltage
+                    - Frequency
+                    - Type
+                    - Output Polarity
+                    - Output Voltage
+                    - Output Current
+            Voltage References:
+                _aliases: ["Voltage Reference"]
+                _parameters:
+                    - Input Voltage
+                    - Output Voltage
+                    - Output Current
+                    - Output Type
+                    - Reference Type
+                    - Tolerance
+                    - Temperature Coefficient
+
+    Passives:
+        _description: "Passive Components"
+        _structural: true
+        _parameters:
+            - Mounting Type
+            - Package Type
+        Capacitors:
+            _structural: true
+            _parameters:
+                - Capacitance
+                - Tolerance
+                - Rated Voltage
+            Aluminum Electrolytic:
+                _aliases:
+                    - Aluminum Electrolytic Capacitors
+                    - Aluminum Electrolytic Capacitors - SMD
+                    - Aluminum Electrolytic Capacitors - Leaded
+                    - Electrolyte Capacitors
+                _description: "Aluminum Electrolytic Capacitors"
+                _parameters:
+                    - Polarization
+                    - ESR
+            Ceramic:
+                _aliases:
+                    - Ceramic Capacitors
+                    - Ceramic Disc Capacitors
+                    - Multilayer Ceramic Capacitors MLCC - SMD/SMT
+                    - Multilayer Ceramic Capacitors MLCC - Leaded
+                _description: "Ceramic Capacitors"
+                _parameters:
+                    - Temperature Coefficient
+            Others:
+                _aliases:
+                    - Film Capacitors
+                _description: "Various Capacitors"
+        Ferrite Beads:
+            _aliases: ["Ferrite Beads and Chips"]
+            _parameters:
+                - Impedance
+                - Resistance
+                - Rated Current
+        Inductors:
+            _aliases:
+                - Fixed Inductors
+                - Color Ring Inductors/Through Hole Inductors
+            _parameters:
+                - Inductance
+                - Tolerance
+                - Rated Current
+                - Size
+        PTC Resettable Fuses:
+            _parameters:
+                - Trip Current
+                - Hold Current
+                - Time to Trip
+                - Rated Voltage
+        Resistors:
+            _parameters:
+                - Resistance
+                - Tolerance
+                - Rated Power
+                - Composition
+    Power Supplies:
+        _parameters:
+            - Mounting Type
+            - Input Voltage
+            - Output Voltage
+            - Output Current
+            - Rated Power
+            - Efficiency
+            - Type
+    Transistors:
+        _structural: true
+        _parameters:
+            - Mounting Type
+            - Package Type
+        Bipolar:
+            _description: "Bipolar Transistors"
+            _structural: true
+            _parameters:
+                - Gain (hFE)
+                - Rated Voltage
+                - Rated Current
+                - Rated Power
+            NPN:
+                _description: "Bipolar NPN Transistors"
+            PNP:
+                _description: "Bipolar PNP Transistors"
+        JFETs:
+            _description: "Junction-Gate Field-Effect Transistors"
+            _structural: true
+            _parameters:
+                - On Resistance
+                - Rated Voltage
+                - Rated Power
+            N-Channel JFETs:
+            P-Channel JFETs:
+        MOSFETs:
+            _description: "Metal-Oxide-Semiconductor Field-Effect Transistors"
+            _structural: true
+            _parameters:
+                - On Resistance
+                - Rated Current
+                - Rated Voltage
+            N-Channel MOSFETs:
+            P-Channel MOSFETs:
+Mechanical:
+    _structural: true
+    Hardware:
+        _structural: true
+        Nuts:
+            _parameters:
+                - Standard
+                - Thread Size
+                - Material
+                - Plating
+        Screws:
+            _parameters:
+                - Standard
+                - Thread Size
+                - Length
+                - Drive Type
+                - Material
+                - Plating
+        Standoffs:
+        Washers:
+    Optical:
+        _structural: true
+        Light Pipes:
+            _parameters:
+                - Mounting Type
+                - Color
+                - Lens Style
+                - Size
+    Printed Parts:
+        _description: 3D Printed Parts
+        _parameters:
+            - Filament
+    Rubber Feet:
+        _aliases: ["Bumpers, Feet, Pads, Grips"]
+        _parameters:
+            - Color
+            - Material
+            - Size
+Packaging Material:
+    Bags:
+        _parameters:
+            - Size
+            - Material
+    Cardboard Boxes:
+        _parameters:
+            - Size
+PCBs:
+    _description: "Printed Circuit Boards"
+PCB Stencils:
+    _description: "Stencils for Printed Circuit Boards"
+Products:
+    _ignore: true
+Solder:
+    _description: "Solder Wire and Paste"
+    _structural: true
+    _parameters:
+        - Composition
+        - Melting Point
+        - Flux Type
+    Solder Paste:
+    Solder Wire:

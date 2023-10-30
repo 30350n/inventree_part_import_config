@@ -1,0 +1,336 @@
+Analog Supply Voltage:
+    _aliases:
+        - Voltage - Supply, Analog
+Architecture:
+    _aliases:
+        - Core Size
+Capacitance:
+    _unit: nF
+Coil Voltage:
+    _unit: V
+Color:
+    _aliases:
+        - Illumination Type, Color
+        - Illumination Colour
+        - Luminous Color
+        - Emitted Color
+Common Pin:
+    _aliases:
+        - LED Polarity
+Composition:
+    _aliases:
+        - Type
+Conductor Material:
+Connectivity:
+Connector Type:
+    _aliases:
+        - Product Type
+        - Type
+Contact Finish:
+    _aliases:
+        - Contact Finish - Mating
+        - Contact Material
+        - Contact plating
+Cross-Section:
+    _unit: mm^2
+Data Rate:
+    _unit: b/s
+Diameter:
+    _aliases:
+        - Industry Recognized Mating Diameter
+        - Standard
+    _unit: mm
+Digital Supply Voltage:
+    _aliases:
+        - Voltage - Supply, Digital
+Display Type:
+Drive Type:
+Dropout Voltage:
+    _aliases:
+        - Voltage Dropout (Max)
+Duplex:
+EEPROM Size:
+Efficiency:
+    _unit: "%"
+ESR:
+    _aliases:
+        - ESR (Equivalent Series Resistance)
+        - Equivalent Series Resistance(ESR)
+Filament:
+FLASH Size:
+    _aliases:
+        - Program Memory Size
+Flux Type:
+Forward Voltage:
+    _aliases:
+        - Voltage - Forward (Vf) (Typ)
+        - Voltage - Forward (Vf) (Max) @ If
+        - Vf - Forward Voltage
+    _unit: V
+Frequency:
+    _aliases:
+        - Frequency - Max
+        - Frequency - Switching
+        - Clock Frequency
+        - Speed
+        - Count Rate
+    _unit: Hz
+Frequency Stability:
+    _unit: ppm
+Frequency Tolerance:
+    _unit: ppm
+Fuse Size:
+Gain (hFE):
+    _aliases:
+        - DC Current Gain (hFE) (Min) @ Ic, Vce
+        - DC Current Gain (hFE@Ic,Vce)
+Gender:
+Has Switch:
+    _aliases:
+        - Built in Switch
+        - Internal Switch(s)
+        - Switch Type
+        - Switch Configuration
+Hold Current:
+    _aliases:
+        - Current - Hold (Ih) (Max)
+    _unit: mA
+Input Offset Voltage:
+    _aliases:
+        - Voltage - Input Offset
+    _unit: mV
+Input Voltage:
+    _aliases:
+        - Voltage - Input
+        - Voltage - Input (Max)
+        - Maximum Input Voltage
+    _unit: V
+Insulation Material:
+Interface:
+    _aliases:
+        - Data Interface
+Impedance:
+    _aliases:
+        - Impedance @ Frequency
+Inductance:
+    _unit: uH
+Length:
+    _unit: mm
+Lens Style:
+    _aliases:
+        - Lens Shape
+Load Capacitance:
+    _unit: pF
+Material:
+Melting Point:
+Motor Type:
+    _aliases:
+        - Motor Type - AC, DC
+        - Motor Type - Stepper
+Mounting Type:
+    _aliases:
+        - Mounting Style
+Multiplexer Configuration:
+    _aliases:
+        - Multiplexer/Demultiplexer Circuit
+Number of A/D Converters:
+Number of Bits:
+    _aliases:
+        - Number of Bits per Element
+        - Resolution (Bits)
+Number of Characters:
+Number of Circuits:
+    _aliases:
+        - Number of Elements
+        - Number of Channels
+Number of Conductors:
+Number of Contacts:
+    _aliases:
+        - Number of Positions
+        - Number of Positions or Pins (Grid)
+        - Number of Tie Points (Total)
+        - Number of contacts points
+        - Number of pins
+Number of D/A Converters:
+Number of Drivers/Receivers:
+Number of IO Pins:
+    _aliases:
+        - Number of I/O
+Number of Positions:
+Number of Rows:
+Number of Turns:
+    _aliases:
+        - Turns
+        - Assembly
+On Resistance:
+    _aliases:
+        - Resistance - RDS(On)
+        - Rds On (Max) @ Id, Vgs
+        - On-State Resistance (Max)
+Operating Force:
+Output Polarity:
+    _aliases:
+        - Output Configuration
+Output Current:
+    _aliases:
+        - Current - Output
+        - Current - Output Source/Sink
+        - Current - Output (Max)
+        - Current - Output / Channel
+        - Current - Output High, Low
+    _unit: A
+Output Type:
+Output Voltage:
+    _aliases:
+        - Voltage - Output (Min/Fixed)
+        - Voltage - Output 1
+    _unit: V
+Package Type:
+    _aliases:
+        - Package / Case
+        - Termination Style
+        - Mounting form
+Pitch:
+    _aliases:
+        - Pitch - Mating
+        - Contacts pitch
+    _unit: mm
+Plating:
+Polarization:
+Processor Type:
+    _aliases:
+        - Core Processor
+Protocol:
+Pulses per Revolution:
+RAM Size:
+Rated Current:
+    _aliases:
+        - Current Rating
+        - Current Rating (Amps)
+        - Current Rating (Max)
+        - Current - Average Rectified (Io)
+        - Current - Average Rectified (Io) (per Diode)
+        - Current - Collector (Ic) (Max)
+        - Contact Rating @ Voltage
+        - Current - Continuous Drain (Id) @ 25°C
+        - Contact Rating
+        - Current Rating (DC)
+        - Current Rating (AC)
+        - Collector Current (Ic)
+        - Current - DC Forward (If) (Max)
+        - Contact Current
+    _unit: A
+Rated Power:
+    _aliases:
+        - Power (Watts)
+        - Power - Max
+        - Power Rating
+        - Power(Watts)
+        - Power Dissipation
+        - Power Dissipation (Pd)
+        - Nominal load
+    _unit: W
+Rated Voltage:
+    _aliases:
+        - Voltage - Rated
+        - Voltage Rated
+        - Voltage - Max
+        - Voltage Rating
+        - Voltage Rating DC
+        - Voltage Rating - DC
+        - Voltage Rating (DC)
+        - Voltage Rating AC
+        - Voltage Rating - AC
+        - Voltage Rating (AC)
+        - Voltage Rating (Max)
+        - Voltage - Collector Emitter Breakdown (Max)
+        - Collector-Emitter Breakdown Voltage (Vceo)
+        - Drain to Source Voltage (Vdss)
+        - Voltage - Breakdown (V(BR)GSS)
+        - Voltage - Load
+        - Nominal voltage
+    _unit: V
+Reference Type:
+Resistance:
+    _aliases:
+        - Resistance (Ohms)
+        - DC Resistance (DCR) (Max)
+        - Resistor
+    _unit: ohm
+Reverse Breakdown Voltage:
+    _aliases:
+        - Voltage - DC Reverse (Vr) (Max)
+        - Voltage - Zener (Nom) (Vz)
+        - Zener Voltage (Nom)
+    _unit: V
+Rotation Angle:
+    _aliases:
+        - Rotation
+    _unit: °
+Sampling Rate:
+    _aliases:
+        - Sampling Rate (Per Second)
+    _unit: Hz
+Settling Time:
+    _unit: us
+Shaft Type:
+Shaft Size:
+    _unit: mm
+Shape:
+Shrouding:
+Size:
+    _aliases:
+        - Size / Dimension
+        - Lens Size
+Slew Rate:
+    _unit: V/us
+Standard:
+Supply Current:
+    _aliases:
+        - Current - Supply
+    _unit: mA
+Supply Voltage:
+    _aliases:
+        - Voltage - Supply
+        - Voltage - Supply Span (Max)
+        - Voltage - Supply (Vcc/Vdd)
+        - Voltage - Supply, Single (V+)
+        - Voltage - Supply, Dual (V±)
+Switch Time:
+    _aliases:
+        - Switch Time (Ton, Toff) (Max)
+Switch Type:
+    _aliases:
+        - Circuit
+        - Circuit per Deck
+        - Switch Circuit
+Taper:
+Temperature Coefficient:
+Thread Size:
+Tolerance:
+    _unit: "%"
+Time to Trip:
+    _unit: ms
+Travel Range:
+    _aliases:
+        - Travel
+    _unit: mm
+Trip Current:
+    _aliases:
+        - Current - Trip (It)
+    _unit: mA
+Type:
+    _aliases:
+        - Topology
+        - Logic Type
+Wavelength:
+    _aliases:
+        - Wavelength - Dominant
+        - Wavelength/Colour Temperature
+        - Wavelength - Peak
+    _unit: nm
+Working Voltage:
+    _aliases:
+        - Maximum DC Volts
+        - Voltage - Reverse Standoff (Typ)
+    _unit: V
