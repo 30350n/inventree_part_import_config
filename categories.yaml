@@ -53,7 +53,8 @@ Electronics:
                 - Rated Current
                 - Rated Voltage
         Circular Connectors:
-            _aliases: ["Circular Connector Assemblies"]
+            _aliases:
+                - Circular Connector Assemblies
             _parameters:
                 - Mounting Type
                 - Connector Type
@@ -80,7 +81,8 @@ Electronics:
             USB-B:
             USB-C:
         Jumpers:
-            _aliases: ["Shunts, Jumpers"]
+            _aliases:
+                - Shunts, Jumpers
             _description: "Jumpers, Shunts"
             _parameters:
                 - Number of Contacts
@@ -106,7 +108,8 @@ Electronics:
                 _parameters:
                     - Shrouding
             Sockets:
-                _aliases: ["Headers, Receptacles, Female Sockets"]
+                _aliases:
+                    - Headers, Receptacles, Female Sockets
                 _description: "Sockets, Female Rectangular Connectors"
     Crystals, Oscillators:
         _structural: true
@@ -166,7 +169,8 @@ Electronics:
                 - Reverse Breakdown Voltage
                 - Rated Current
         TVS:
-            _aliases: ["Transient Voltage Suppressors (TVS)"]
+            _aliases:
+                - Transient Voltage Suppressors (TVS)
             _description: "Transient-Voltage-Suppression Diodes"
             _parameters:
                 - Working Voltage
@@ -242,7 +246,8 @@ Electronics:
                 - Mounting Type
             _structural: true
             Pushbuttons:
-                _aliases: ["Pushbutton Switches"]
+                _aliases:
+                    - Pushbutton Switches
                 _parameters:
                     - Switch Type
                     - Color
@@ -317,13 +322,15 @@ Electronics:
                 - Analog Supply Voltage
                 - Digital Supply Voltage
             ADCs:
-                _aliases: ["Analog to Digital Converters (ADC)"]
+                _aliases:
+                    - Analog to Digital Converters (ADC)
                 _description: "Analog to Digital Converters"
                 _parameters:
                     - Sampling Rate
                     - Number of A/D Converters
             DACs:
-                _aliases: ["Digital to Analog Converters (DAC)"]
+                _aliases:
+                    - Digital to Analog Converters (DAC)
                 _description: "Digital to Analog Converters"
                 _parameters:
                     - Settling Time
@@ -348,7 +355,8 @@ Electronics:
                     - Analog Supply Voltage
                     - Digital Supply Voltage
             IO Expanders:
-                _aliases: ["I/O Expanders"]
+                _aliases:
+                    - I/O Expanders
                 _parameters:
                     - Interface
                     - Number of IO Pins
@@ -458,7 +466,8 @@ Electronics:
                     - Output Voltage
                     - Output Current
             Voltage References:
-                _aliases: ["Voltage Reference"]
+                _aliases:
+                    - Voltage Reference
                 _parameters:
                     - Input Voltage
                     - Output Voltage
@@ -504,7 +513,8 @@ Electronics:
                     - Film Capacitors
                 _description: "Various Capacitors"
         Ferrite Beads:
-            _aliases: ["Ferrite Beads and Chips"]
+            _aliases:
+                - Ferrite Beads and Chips
             _parameters:
                 - Impedance
                 - Resistance
@@ -607,7 +617,8 @@ Mechanical:
         _parameters:
             - Filament
     Rubber Feet:
-        _aliases: ["Bumpers, Feet, Pads, Grips"]
+        _aliases:
+            - Bumpers, Feet, Pads, Grips
         _parameters:
             - Color
             - Material
