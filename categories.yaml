@@ -228,7 +228,7 @@ Electronics:
                 - Shaft Type
                 - Shaft Size
         Relays:
-            _aliases:
+            _parameters:
                 - Mounting Type
                 - Switch Type
                 - Coil Voltage
