@@ -95,6 +95,11 @@ Hold Current:
     _aliases:
         - Current - Hold (Ih) (Max)
     _unit: mA
+Impedance:
+    _aliases:
+        - Impedance @ Frequency
+Inductance:
+    _unit: uH
 Input Offset Voltage:
     _aliases:
         - Voltage - Input Offset
@@ -109,11 +114,6 @@ Insulation Material:
 Interface:
     _aliases:
         - Data Interface
-Impedance:
-    _aliases:
-        - Impedance @ Frequency
-Inductance:
-    _unit: uH
 Length:
     _unit: mm
 Lens Style:
@@ -168,9 +168,6 @@ On Resistance:
         - Rds On (Max) @ Id, Vgs
         - On-State Resistance (Max)
 Operating Force:
-Output Polarity:
-    _aliases:
-        - Output Configuration
 Output Current:
     _aliases:
         - Current - Output
@@ -179,6 +176,9 @@ Output Current:
         - Current - Output / Channel
         - Current - Output High, Low
     _unit: A
+Output Polarity:
+    _aliases:
+        - Output Configuration
 Output Type:
 Output Voltage:
     _aliases:
