@@ -2,7 +2,6 @@ Electronics:
     _description: "Electronic Components"
     _structural: true
     Cables and Wires:
-        _description: Wires and Cables
         _structural: true
         Cable Assemblies:
             _description: "Terminated, Assembled Cables"
@@ -45,6 +44,7 @@ Electronics:
             _aliases:
                 - Power Connectors
                 - AC/DC Power Connectors
+            _parameters:
                 - Mounting Type
                 - Connector Type
                 - Gender
@@ -458,7 +458,7 @@ Electronics:
             Switching Regulators:
                 _aliases:
                     - DC DC Switching Regulators
-                _paramters:
+                _parameters:
                     - Input Voltage
                     - Frequency
                     - Type
