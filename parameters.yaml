@@ -51,7 +51,7 @@ Dropout Voltage:
 Duplex:
 EEPROM Size:
 Efficiency:
-    _unit: "%"
+    _unit: '%'
 ESR:
     _aliases:
         - ESR (Equivalent Series Resistance)
@@ -190,6 +190,7 @@ Package Type:
         - Package / Case
         - Termination Style
         - Mounting form
+        - Package/Case
 Pitch:
     _aliases:
         - Pitch - Mating
@@ -308,7 +309,7 @@ Taper:
 Temperature Coefficient:
 Thread Size:
 Tolerance:
-    _unit: "%"
+    _unit: '%'
 Time to Trip:
     _unit: ms
 Travel Range:
