@@ -103,6 +103,7 @@ Inductance:
 Input Offset Voltage:
     _aliases:
         - Voltage - Input Offset
+        - Vos - Input Offset Voltage
     _unit: mV
 Input Voltage:
     _aliases:
@@ -230,6 +231,7 @@ Rated Power:
         - Power Dissipation
         - Power Dissipation (Pd)
         - Nominal load
+        - Power loss
     _unit: W
 Rated Voltage:
     _aliases:
@@ -285,10 +287,13 @@ Size:
         - Lens Size
 Slew Rate:
     _unit: V/us
+    _aliases:
+        - SR - Slew Rate
 Standard:
 Supply Current:
     _aliases:
         - Current - Supply
+        - Operating Supply Current
     _unit: mA
 Supply Voltage:
     _aliases:
@@ -297,6 +302,7 @@ Supply Voltage:
         - Voltage - Supply (Vcc/Vdd)
         - Voltage - Supply, Single (V+)
         - Voltage - Supply, Dual (V±)
+        - Operating Supply Voltage
 Switch Time:
     _aliases:
         - Switch Time (Ton, Toff) (Max)

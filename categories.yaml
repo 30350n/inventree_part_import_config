@@ -308,6 +308,7 @@ Electronics:
             Operational Amplifiers:
                 _aliases:
                     - Operational Amplifier
+                    - Operational Amplifiers - Op Amps
             Instrumentation Amplifiers:
         Audio:
             _description: Audio ICs
