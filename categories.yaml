@@ -18,6 +18,8 @@ Electronics:
                 - Rated Voltage
                 - Conductor Material
                 - Insulation Material
+            _aliases:
+                - Ribbon Cables - Single Color
         Solid Core:
             _parameters:
                 - Number of Conductors
