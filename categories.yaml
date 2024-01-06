@@ -407,6 +407,13 @@ Electronics:
                     - Output Type
         Memory:
             _description: Memory ICs
+            _parameters:
+                - Type
+                - Memory Format
+                - Memory Size
+                - Interface
+                - Frequency
+                - Supply Voltage
         Microcontrollers:
             _parameters:
                 - Processor Type

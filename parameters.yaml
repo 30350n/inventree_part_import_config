@@ -115,6 +115,7 @@ Insulation Material:
 Interface:
     _aliases:
         - Data Interface
+        - Memory Interface
 Length:
     _unit: mm
 Lens Style:
@@ -124,6 +125,8 @@ Load Capacitance:
     _unit: pF
 Material:
 Melting Point:
+Memory Format:
+Memory Size:
 Motor Type:
     _aliases:
         - Motor Type - AC, DC
@@ -303,6 +306,7 @@ Supply Voltage:
         - Voltage - Supply, Single (V+)
         - Voltage - Supply, Dual (V±)
         - Operating Supply Voltage
+        - Supply voltage
 Switch Time:
     _aliases:
         - Switch Time (Ton, Toff) (Max)
@@ -330,6 +334,7 @@ Type:
     _aliases:
         - Topology
         - Logic Type
+        - Memory Type
 Wavelength:
     _aliases:
         - Wavelength - Dominant
