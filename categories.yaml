@@ -113,6 +113,19 @@ Electronics:
                 _aliases:
                     - Headers, Receptacles, Female Sockets
                 _description: Sockets, Female Rectangular Connectors
+        Spring Loaded:
+            _aliases:
+                - Battery Contacts
+            _description: Spring Loaded Connectors
+            _parameters:
+                - Mounting Type
+                - Connector Type
+                - Number of Contacts
+                - Number of Rows
+                - Pitch
+                - Rated Current
+                - Rated Voltage
+                - Contact Finish
     Crystals, Oscillators:
         _structural: true
         _parameters:
