@@ -106,6 +106,7 @@ Electronics:
             Headers:
                 _aliases:
                     - Headers, Male Pins
+                    - Header and Tray Plugs
                 _description: Headers, Male Rectangular Connectors
                 _parameters:
                     - Shrouding
@@ -408,6 +409,7 @@ Electronics:
             Logic Gates:
                 _aliases:
                     - Gates and Inverters
+                    - Logic ICs
                 _parameters:
                     - Type
             PLLs:
@@ -443,6 +445,7 @@ Electronics:
         Motor Drivers:
             _aliases:
                 - Motor Drivers, Controllers
+                - Motor/Motion/Ignition Controllers & Drivers
             _parameters:
                 - Motor Type
                 - Output Current

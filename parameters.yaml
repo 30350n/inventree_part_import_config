@@ -20,6 +20,7 @@ Common Pin:
 Composition:
     _aliases:
         - Type
+        - Type of resistor
 Conductor Material:
     _aliases:
         - Kind of core
@@ -138,9 +139,11 @@ Motor Type:
     _aliases:
         - Motor Type - AC, DC
         - Motor Type - Stepper
+        - Type
 Mounting Type:
     _aliases:
         - Mounting Style
+        - Mounting
 Multiplexer Configuration:
     _aliases:
         - Multiplexer/Demultiplexer Circuit
@@ -164,6 +167,7 @@ Number of Contacts:
         - Number of Tie Points (Total)
         - Number of contacts points
         - Number of pins
+        - Pole number
 Number of D/A Converters:
 Number of Drivers/Receivers:
 Number of IO Pins:
@@ -234,6 +238,9 @@ Rated Current:
         - Collector Current (Ic)
         - Current - DC Forward (If) (Max)
         - Contact Current
+        - Nominal current
+        - Maximum current
+        - Current - Peak Pulse (10/1000µs)
     _unit: A
 Rated Power:
     _aliases:
@@ -245,6 +252,7 @@ Rated Power:
         - Power Dissipation (Pd)
         - Nominal load
         - Power loss
+        - Power
     _unit: W
 Rated Voltage:
     _aliases:
@@ -265,6 +273,8 @@ Rated Voltage:
         - Voltage - Breakdown (V(BR)GSS)
         - Voltage - Load
         - Nominal voltage
+        - Load Voltage Rating
+        - Rated voltage
     _unit: V
 Reference Type:
 Resistance:
@@ -278,6 +288,7 @@ Reverse Breakdown Voltage:
         - Voltage - DC Reverse (Vr) (Max)
         - Voltage - Zener (Nom) (Vz)
         - Zener Voltage (Nom)
+        - URRM
     _unit: V
 Rotation Angle:
     _aliases:
@@ -350,6 +361,7 @@ Wavelength:
         - Wavelength - Dominant
         - Wavelength/Colour Temperature
         - Wavelength - Peak
+        - Dominant Wavelength
     _unit: nm
 Working Voltage:
     _aliases:
