@@ -2,6 +2,7 @@ currency: EUR
 language: EN
 location: DE
 scraping: true
+datasheets: link
 max_results: 10
 interactive: twice
 request_timeout: 15.0

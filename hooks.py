@@ -168,3 +168,9 @@ MOUNTING_TYPE_MAP = {
 def fix_mounting_type_terminology(api_part: ApiPartMock):
     if mounting := api_part.parameters.get("Electrical mounting"):
         api_part.parameters["Mounting Type"] = MOUNTING_TYPE_MAP.get(mounting, mounting)
+
+def fix_reichelt_others(api_part: ApiPartMock):
+    if not api_part.category_path[-1] == "Others":
+        return
+    if "www.reichelt" in api_part.supplier_link:
+        api_part.category_path = api_part.category_path[:-1]
